@@ -43,3 +43,12 @@ Then, update the stylesheet header in `style.css` and the links in `footer.php` 
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
 Good luck!
+
+###########
+This was a custom theme I built for a small-busines client using underscore. 
+
+I learned a lot about:
+1. Working with libraries
+2. Building custom WP themes
+3. Managing design and development and how they work together
+4. Handling design changes and working through problems as they present themselves
