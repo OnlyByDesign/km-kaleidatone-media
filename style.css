@@ -1,0 +1,189 @@
+/*
+Theme Name: Only BY Design Theme
+Theme URI: http://underscores.me/
+Author: Ben Yannella
+Author URI: http://onlyby.design/
+Description: Ben Yannella WordPress Starter Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: only-by-design-theme
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Only BY Design Theme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+html {
+	background-color:#000;
+	font-size: 0;
+}
+
+main {
+	height: 1080px;
+}
+
+body {
+	height: 100%;
+	outline:none;
+	font-size:100%;
+	overflow:hidden;
+	background-size: 105%;
+	background-image: url('http://onlyby.design/dev/ktm/wp-content/uploads/2017/05/6761-Converted.png');
+	z-index:9;
+}
+
+#page-main {
+	width:100%;
+	height: 90vh;
+	display:table;
+}
+
+#parallax-hold {
+	width: 100%;
+	height: 100vh;
+	position:absolute;
+	z-index:99;
+}
+
+.mouse-bg {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	position: fixed;
+	z-index: -1;
+}
+    
+.mouse-bg {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	position: fixed;
+}
+
+#background {
+	z-index:99;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+  
+#foreground {
+	background-color: rgba(0,0,0,0.5);
+	z-index:999;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.content-hold {
+	margin: 0 auto;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+	height:100%;
+	position:relative;
+	z-index:999;
+}
+
+.main-content {
+	margin:0 auto;
+	text-align:left;
+	float:none;
+}
+
+.main-content h1 {
+	color:#fff;
+	font-size:36px;
+	display:block;
+	font-weight:100;
+	text-transform:uppercase;
+	margin:0;
+}
+
+.main-content h2 {
+	color:#fff;
+	font-size:16px;
+	display:block;
+	font-weight:300;
+	border-left:.5px solid #fff;
+	margin-left: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+.sub-content {
+	margin:0 auto;
+	text-align:left;
+	float:none;
+	display:inline-block;
+	vertical-align:top;
+	padding: 30px 0px;
+}
+
+.sub-content h1 {
+	color:#fff;
+	font-size:36px;
+	display:block;
+	font-weight:100;
+	text-transform:uppercase;
+	margin:0;
+}
+
+.sub-hold h2 {
+	color:#fff;
+	font-size:16px;
+	display:block;
+	font-weight:300;
+	border-left:.5px solid #fff;
+	margin-left: 20px;
+	padding-left: 20px;
+	margin-top: 15px;
+	margin-bottom:15px;
+	line-height:20px;
+}
+
+
+.sub-hold h3 {
+	color:#fff;
+	line-height:25px;
+	font-size:16px;
+	display:block;
+	font-weight:300;
+	margin-left: 20px;
+	font-style: normal;
+}
+
+.sub-hold h3 a {
+	color: #fff;
+	text-decoration:none;
+}
+
+.reveal {
+	position:absolute;
+	width:20vw;
+	display:none;
+	top:0;
+}
+
+@media screen and (max-width: 768px) {
+body {
+	overflow: auto;
+}
+
+.content-hold {
+	padding-top:75px;
+	padding-bottom:75px;
+}
+
+.sub-content h1 {
+	font-weight:200;
+}
+}
